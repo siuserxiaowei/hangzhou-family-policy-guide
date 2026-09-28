@@ -1,0 +1,30 @@
+{
+  "checked_on": "2026-09-28",
+  "source": "Restored from shared conversation generation code and five subsequent content revisions; original attachment binary unavailable",
+  "policy_cards": 14,
+  "source_entries": 24,
+  "checklist_items": 12,
+  "static_checks": {
+    "unique_ids": "passed",
+    "internal_anchors": "passed",
+    "javascript_syntax": "node --check passed",
+    "external_scripts": 0,
+    "external_stylesheets": 0
+  },
+  "browser": "Chromium via Playwright CLI on local HTTP",
+  "browser_checks": {
+    "keyword_search": "passed: 连续3年 selects P05",
+    "category_filter": "passed: 户籍 selects one card",
+    "expand_details": "passed: opens 14 cards",
+    "checklist_local_storage": "passed: checkbox persists after reload",
+    "checklist_export": "passed: download has 19 actual lines",
+    "budget": "passed: 13000 × 6 + 8000 + 5000 = 91000",
+    "copy_consultation_text": "passed; waited for asynchronous clipboard completion",
+    "responsive_layout": "passed: document width does not exceed viewport at 1440, 820, 390, 360 px",
+    "print": "passed: navigation hidden in print mode"
+  },
+  "page_sha256": "968b176232917e9d8be3f05e75ab2080b80409fac1d4c90b1b6084500e3a22b8",
+  "restored_offline_html_sha256": "fad7ed83129c10f61702eac6604da83088444fc41e8976beca226aa23c2a05d5",
+  "policy_reverification": "not performed in this publication task; original caveats retained",
+  "online_deployment": "pending; to be checked after push"
+}

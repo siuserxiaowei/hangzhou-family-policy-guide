@@ -21,10 +21,23 @@
     "budget": "passed: 13000 × 6 + 8000 + 5000 = 91000",
     "copy_consultation_text": "passed; waited for asynchronous clipboard completion",
     "responsive_layout": "passed: document width does not exceed viewport at 1440, 820, 390, 360 px",
-    "print": "passed: navigation hidden in print mode"
+    "print": "passed: navigation hidden in print mode",
+    "archive_download": "passed: local browser download identical to source archive"
   },
   "page_sha256": "968b176232917e9d8be3f05e75ab2080b80409fac1d4c90b1b6084500e3a22b8",
   "restored_offline_html_sha256": "fad7ed83129c10f61702eac6604da83088444fc41e8976beca226aa23c2a05d5",
   "policy_reverification": "not performed in this publication task; original caveats retained",
-  "online_deployment": "pending; to be checked after push"
+  "online_deployment": {
+    "verified_at": "2026-09-28T02:47:52.505211+00:00",
+    "pages_build": "built",
+    "deployed_commit": "d8729108688263c5718e8faa0b0432585ca703ab",
+    "page": {
+      "url": "https://siuserxiaowei.github.io/hangzhou-family-policy-guide/",
+      "status": 200,
+      "bytes": 105236,
+      "sha256": "968b176232917e9d8be3f05e75ab2080b80409fac1d4c90b1b6084500e3a22b8",
+      "matches_local": true
+    },
+    "archive_download": "HTTP 200 and byte-for-byte match verified before adding this deployment receipt"
+  }
 }
